@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+إتقان  </title>
+  <!--     Fonts and icons     -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Noto+Sans:300,400,500,600,700,800|PT+Mono:300,400,500,600,700" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+  <!-- Nucleo Icons -->
+  <link href="assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/349ee9c857.js" crossorigin="anonymous"></script>
+  <link href="assets/css/nucleo-svg.css" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link id="pagestyle" href="assets/css/Dmain.css" rel="stylesheet" />
+</head>
+
+<body class="g-sidenav-show rtl bg-gray-100">
+  <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 bg-slate-900 fixed-end rotate-caret" id="sidenav-main">
+    <div class="sidenav-header">
+      <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute start-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+      <a class="navbar-brand d-flex align-items-center m-0" href=" https://demos.creative-tim.com/corporate-ui-dashboard/pages/dashboard.html " target="_blank">
+        <span class="font-weight-bold text-lg">إتقــان</span>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse px-4 px-0 w-auto " id="sidenav-collapse-main">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link d-flex flex-column align-items-center" href="/rtl.html">
+            <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
+              <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>dashboard</title>
+                <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="template" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path class="color-foreground" d="M0,1.71428571 C0,0.76752 0.76752,0 1.71428571,0 L22.2857143,0 C23.2325143,0 24,0.76752 24,1.71428571 L24,5.14285714 C24,6.08962286 23.2325143,6.85714286 22.2857143,6.85714286 L1.71428571,6.85714286 C0.76752,6.85714286 0,6.08962286 0,5.14285714 L0,1.71428571 Z" id="Path"></path>
+                    <path class="color-background" d="M0,12 C0,11.0532171 0.76752,10.2857143 1.71428571,10.2857143 L12,10.2857143 C12.9468,10.2857143 13.7142857,11.0532171 13.7142857,12 L13.7142857,22.2857143 C13.7142857,23.2325143 12.9468,24 12,24 L1.71428571,24 C0.76752,24 0,23.2325143 0,22.2857143 L0,12 Z" id="Path"></path>
+                    <path class="color-background" d="M18.8571429,10.2857143 C17.9103429,10.2857143 17.1428571,11.0532171 17.1428571,12 L17.1428571,22.2857143 C17.1428571,23.2325143 17.9103429,24 18.8571429,24 L22.2857143,24 C23.2325143,24 24,23.2325143 24,22.2857143 L24,12 C24,11.0532171 23.2325143,10.2857143 22.2857143,10.2857143 L18.8571429,10.2857143 Z" id="Path"></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <span class="nav-link-text mt-1">داشبورد</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex flex-column align-items-center" href="/table.html">
+            <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
+              <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <title>report</title>
+                <g id="table" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="view-grid" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path class="color-foreground" d="M3.42857143,0 C1.53502286,0 0,1.53502286 0,3.42857143 L0,6.85714286 C0,8.75069143 1.53502286,10.2857143 3.42857143,10.2857143 L6.85714286,10.2857143 C8.75069143,10.2857143 10.2857143,8.75069143 10.2857143,6.85714286 L10.2857143,3.42857143 C10.2857143,1.53502286 8.75069143,0 6.85714286,0 L3.42857143,0 Z" id="Path"></path>
+                    <path class="color-background" d="M3.42857143,13.7142857 C1.53502286,13.7142857 0,15.2492571 0,17.1428571 L0,20.5714286 C0,22.4650286 1.53502286,24 3.42857143,24 L6.85714286,24 C8.75069143,24 10.2857143,22.4650286 10.2857143,20.5714286 L10.2857143,17.1428571 C10.2857143,15.2492571 8.75069143,13.7142857 6.85714286,13.7142857 L3.42857143,13.7142857 Z" id="Path"></path>
+                    <path class="color-background" d="M13.7142857,3.42857143 C13.7142857,1.53502286 15.2492571,0 17.1428571,0 L20.5714286,0 C22.4650286,0 24,1.53502286 24,3.42857143 L24,6.85714286 C24,8.75069143 22.4650286,10.2857143 20.5714286,10.2857143 L17.1428571,10.2857143 C15.2492571,10.2857143 13.7142857,8.75069143 13.7142857,6.85714286 L13.7142857,3.42857143 Z" id="Path"></path>
+                    <path class="color-foreground" d="M13.7142857,17.1428571 C13.7142857,15.2492571 15.2492571,13.7142857 17.1428571,13.7142857 L20.5714286,13.7142857 C22.4650286,13.7142857 24,15.2492571 24,17.1428571 L24,20.5714286 C24,22.4650286 22.4650286,24 20.5714286,24 L17.1428571,24 C15.2492571,24 13.7142857,22.4650286 13.7142857,20.5714286 L13.7142857,17.1428571 Z" id="Path"></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <span class="nav-link-text mt-1">التقرير</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex flex-column align-items-center" href="#">
+            <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
+              <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>table</title>
+                <g id="wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="credit-card" transform="translate(12.000000, 15.000000)" fill="#FFFFFF">
+                    <path class="color-background" d="M3,0 C1.343145,0 0,1.343145 0,3 L0,4.5 L24,4.5 L24,3 C24,1.343145 22.6569,0 21,0 L3,0 Z" id="Path" fill-rule="nonzero"></path>
+                    <path class="color-foreground" d="M24,7.5 L0,7.5 L0,15 C0,16.6569 1.343145,18 3,18 L21,18 C22.6569,18 24,16.6569 24,15 L24,7.5 Z M3,13.5 C3,12.67155 3.67158,12 4.5,12 L6,12 C6.82842,12 7.5,12.67155 7.5,13.5 C7.5,14.32845 6.82842,15 6,15 L4.5,15 C3.67158,15 3,14.32845 3,13.5 Z M10.5,12 C9.67158,12 9,12.67155 9,13.5 C9,14.32845 9.67158,15 10.5,15 L12,15 C12.82845,15 13.5,14.32845 13.5,13.5 C13.5,12.67155 12.82845,12 12,12 L10.5,12 Z" id="Shape"></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <span class="nav-link-text mt-1">الدعم الفني</span>
+          </a>
+        </li>
+       
+        </div>
+      </div>
+    </div>
+  </aside>
+  <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg overflow-x-hidden">
+    <!-- Navbar -->
+    <nav class="navbar navbar-main navbar-expand-lg mx-5 px-0 shadow-none rounded" id="navbarBlur" navbar-scroll="true">
+      <div class="container-fluid py-1 px-2">
+       
+        <div class="collapse navbar-collapse mt-sm-0 mt-2 px-0" id="navbar">
+          
+          <ul class="navbar-nav me-auto ms-0 justify-content-end">
+            <li class="nav-item d-xl-none pe-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+                <div class="sidenav-toggler-inner">
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                  <i class="sidenav-toggler-line"></i>
+                </div>
+              </a>
+            </li>                   
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="container-fluid py-4 px-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="d-md-flex align-items-center mb-3">
+            <div class="mb-md-0 mb-3">
+              <h3 class="font-weight-bold mb-0">مرحبًا, سلمان</h3>
+              <p class="mb-0">ممثل المحطة التاسعة</p>
+            </div>
+            <button type="button" class="btn btn-sm btn-white btn-icon d-flex align-items-center mb-0 me-md-auto ms-2">
+              <span class="btn-inner--icon ms-2">
+                <span class="p-1 bg-success rounded-circle d-flex me-auto">
+                </span>
+              </span>
+              <span class="btn-inner--text">الملف محدث</span>
+            </button>
+            
+            <button type="button" class="btn btn-sm btn-dark btn-icon d-flex align-items-center mb-0">
+              <span class="btn-inner--icon">
+                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="d-block ms-2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                </svg>
+              </span>
+              <span class="btn-inner--text">تحديث الصفحة</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4">
+    
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card2">
+            <h3 class="card2__title">ملفات مهمة
+            </h3>
+            <p class="card2__content"><a href="https://example.com">اضغط هنا</a></p>
+            <div class="card__date">
+          <br>
+            <div class="card2__arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                    <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                </svg>
+            </div>
+        </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card2">
+            <h3 class="card2__title"> الأدلة
+            </h3>
+            <p class="card2__content"><a href="https://example.com">اضغط هنا</a></p>
+            <div class="card__date">
+          <br>
+            <div class="card2__arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                    <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                </svg>
+            </div>
+        </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3 mb-3">
+          <div class="card2">
+            <h3 class="card2__title"> الملفات المهمة
+            </h3>
+            <p class="card2__content"><a href="https://example.com">اضغط هنا</a></p>
+            <div class="card__date">
+          <br>
+            <div class="card2__arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
+                    <path fill="#fff" d="M13.4697 17.9697C13.1768 18.2626 13.1768 18.7374 13.4697 19.0303C13.7626 19.3232 14.2374 19.3232 14.5303 19.0303L20.3232 13.2374C21.0066 12.554 21.0066 11.446 20.3232 10.7626L14.5303 4.96967C14.2374 4.67678 13.7626 4.67678 13.4697 4.96967C13.1768 5.26256 13.1768 5.73744 13.4697 6.03033L18.6893 11.25H4C3.58579 11.25 3.25 11.5858 3.25 12C3.25 12.4142 3.58579 12.75 4 12.75H18.6893L13.4697 17.9697Z"></path>
+                </svg>
+            </div>
+          </div>
+        </div>
+        
+          </div>
+        </div>
+      </div>
+      <!-- End Cards -->
+
+      <!--first 3 charts-->
+      <div class="row my-4">
+        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+          <div class="card shadow-xs border h-100">
+            <div class="card-header pb-0">
+              <h6 class="font-weight-bold text-lg mb-0"> الرسم البياني</h6>
+ 
+              <div class="btn-group me-2" role="group" aria-label="Basic example">
+              </div>
+            </div>
+            <div class="card-body py-3">
+              <div class="chart mb-2">
+                <canvas id="chart1" class="chart-canvas" height="240" width="500"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-md-0 ">
+          <div class="card shadow-xs border h-100">
+            <div class="card-header pb-0">
+              <h6 class="font-weight-bold text-lg mb-0"> الرسم البياني</h6>
+ 
+              <div class="btn-group me-2" role="group" aria-label="Basic example">
+              </div>
+            </div>
+            <div class="card-body py-3">
+              <div class="chart mb-2">
+                <canvas id="chart-bars-1" class="chart-canvas" height="240"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+          </div>
+        </div>
+      </div> <!--End first 3 charts-->
+
+      <!--Second 2 charts-->
+      <div class="row justify-content-center my-4">
+        <div class="col-lg-6 col-md-6 mb-md-0 mb-4">
+          <div class="card shadow-xs border h-100">
+            <div class="card-header pb-0">
+              <h6 class="font-weight-bold text-lg mb-0"> الرسم البياني</h6>
+ 
+              <div class="btn-group me-2" role="group" aria-label="Basic example">
+              </div>
+            </div>
+            <div class="card-body py-3 px-4">
+              <div class="chart mb-2">
+                <canvas id="chart-bars-3" class="chart-canvas" height="240"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-md-0 ">
+          <div class="card shadow-xs border h-100">
+            <div class="card-header pb-0">
+              <h6 class="font-weight-bold text-lg mb-0"> الرسم البياني</h6>
+ 
+              <div class="btn-group me-2" role="group" aria-label="Basic example">
+              </div>
+            </div>
+            <div class="card-body py-3 px-4">
+              <div class="chart mb-2">
+                <canvas id="chart-bars-4" class="chart-canvas" height="240"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+
+           <!--first 3 charts-->
+      <div class="row my-4">
+        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+          <div class="card shadow-xs border h-100">
+            <div class="card-header pb-0">
+              <h6 class="font-weight-bold text-lg mb-0"> الرسم البياني</h6>
+ 
+              <div class="btn-group me-2" role="group" aria-label="Basic example">
+              </div>
+            </div>
+            <div class="card-body py-3">
+              <div class="chart mb-2">
+                <canvas id="chart-bars-5" class="chart-canvas" height="240"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-md-0 ">
+          <div class="card shadow-xs border h-100">
+            <div class="card-header pb-0">
+              <h6 class="font-weight-bold text-lg mb-0"> الرسم البياني</h6>
+ 
+              <div class="btn-group me-2" role="group" aria-label="Basic example">
+              </div>
+            </div>
+            <div class="card-body py-3">
+              <div class="chart mb-2">
+                <canvas id="chart-bars-6" class="chart-canvas" height="240"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+          <div class="card shadow-xs border h-100">
+            <div class="card-header pb-0">
+              <h6 class="font-weight-bold text-lg mb-0"> الرسم البياني</h6>
+ 
+              <div class="btn-group me-2" role="group" aria-label="Basic example">
+              </div>
+            </div>
+            <div class="card-body py-3">
+              <div class="chart mb-2">
+                <canvas id="chart-bars-7" class="chart-canvas" height="240"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!--End first 3 charts-->
+      
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card shadow-xs border">
+            <div class="card-header pb-5">
+              <div class="d-flex align-items-center mb-3 p-3">
+                <div>
+                  <h6 class="font-weight-bold text-lg mb-0">نظرة عامة على التوازن</h6>
+                  <p class="text-sm mb-0">هنا لديك تفاصيل حول الرصيد.</p>
+                </div>
+                <div class="me-auto d-flex">
+                  
+                </div>
+              </div>
+              
+            </div>
+            <div class="card-body p-3">
+              <div class="chart mt-n6">
+                <canvas id="chart-line" class="chart-canvas" height="300"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer pt-3  ">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-lg-between">
+            <div class="col-lg-6 mb-lg-0 mb-4">
+              <div class="copyright text-center text-xs text-muted text-lg-end">
+                   جميع الحقوق محفوظة
+                © <script>
+                  document.write(new Date().getFullYear())
+                </script>
+                إتقـان
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
+  
+      
+       
+  <!--   Core JS Files   -->
+  <script src="assets/js/core/popper.min.js"></script>
+  <script src="assets/js/core/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="assets/js/plugins/chartjs.min.js"></script>
+  <script src="assets/js/plugins/swiper-bundle.min.js" type="text/javascript"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    if (document.getElementsByClassName('mySwiper')) {
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+        initialSlide: 1,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    };
+
+
+    
+   
+  </script>
+  <script src="assets/js/plugins/chartjs.min.js"></script>
+  <script src="assets/js/plugins/swiper-bundle.min.js" type="text/javascript"></script>
+  <script>
+    if (document.getElementsByClassName('mySwiper')) {
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+    };
+
+
+    var ctx = document.getElementById("chart1").getContext("2d");
+
+    new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "أكتوبر", "نوفمبر", "ديسمبر"],
+        datasets: [{
+            label: "الشهور",
+            tension: 0.4,
+            borderWidth: 0,
+            borderSkipped: false,
+            backgroundColor: "#2ca8ff",
+            data: [450, 200, 100, 220, 500, 100, 400, 230, 500, 200,400],
+            maxBarThickness: 6
+          },
+          {
+            label: "Sales",
+            tension: 0.4,
+            borderWidth: 0,
+            borderSkipped: false,
+            backgroundColor: "#7c3aed",
+            data: [200, 300, 200, 420, 400, 200, 300, 430, 400, 300,600],
+            maxBarThickness: 6
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: false,
+          },
+          tooltip: {
+            backgroundColor: '#fff',
+            titleColor: '#1e293b',
+            bodyColor: '#1e293b',
+            borderColor: '#e9ecef',
+            borderWidth: 1,
+            usePointStyle: true
+          }
+        },
+        interaction: {
+          intersect: false,
+          mode: 'index',
+        },
+        scales: {
+          y: {
+            stacked: true,
+            grid: {
+              drawBorder: false,
+              display: true,
+              drawOnChartArea: true,
+              drawTicks: false,
+              borderDash: [4, 4],
+            },
+            ticks: {
+              beginAtZero: true,
+              padding: 10,
+              font: {
+                size: 12,
+                family: "Noto Sans",
+                style: 'normal',
+                lineHeight: 2
+              },
+              color: "#64748B"
+            },
+          },
+          x: {
+            stacked: true,
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: false,
+              drawTicks: false
+            },
+            ticks: {
+              font: {
+                size: 12,
+                family: "Noto Sans",
+                style: 'normal',
+                lineHeight: 2
+              },
+              color: "#64748B"
+            },
+          },
+        },
+      },
+    });
+
+
+    var ctx2 = document.getElementById("chart-line").getContext("2d");
+
+    var gradientStroke1 = ctx2.createLinearGradient(0, 230, 0, 50);
+
+    gradientStroke1.addColorStop(1, 'rgba(45,168,255,0.2)');
+    gradientStroke1.addColorStop(0.2, 'rgba(45,168,255,0.0)');
+    gradientStroke1.addColorStop(0, 'rgba(45,168,255,0)'); //blue colors
+
+    var gradientStroke2 = ctx2.createLinearGradient(0, 230, 0, 50);
+
+    gradientStroke2.addColorStop(1, 'rgba(119,77,211,0.4)');
+    gradientStroke2.addColorStop(0.7, 'rgba(119,77,211,0.1)');
+    gradientStroke2.addColorStop(0, 'rgba(119,77,211,0)'); //purple colors
+
+    new Chart(ctx2, {
+      plugins: [{
+        beforeInit(chart) {
+          const originalFit = chart.legend.fit;
+          chart.legend.fit = function fit() {
+            originalFit.bind(chart.legend)();
+            this.height += 40;
+          }
+        }
+      }],
+      type: "line",
+      data: {
+        labels: ["Aug 18", "Aug 19", "Aug 20", "Aug 21", "Aug 22", "Aug 23", "Aug 24", "Aug 25", "Aug 26", "Aug 27", "Aug 28", "Aug 29", "Aug 30", "Aug 31", "Sept 01", "Sept 02", "Sept 03", "Aug 22", "Sept 04", "Sept 05", "Sept 06", "Sept 07", "Sept 08", "Sept 09"],
+        datasets: [{
+            label: "مقدار",
+            tension: 0,
+            borderWidth: 2,
+            pointRadius: 3,
+            borderColor: "#2ca8ff",
+            pointBorderColor: '#2ca8ff',
+            pointBackgroundColor: '#2ca8ff',
+            backgroundColor: gradientStroke1,
+            fill: true,
+            data: [2828, 1291, 3360, 3223, 1630, 980, 2059, 3092, 1831, 1842, 1902, 1478, 1123, 2444, 2636, 2593, 2885, 1764, 898, 1356, 2573, 3382, 2858, 4228],
+            maxBarThickness: 6
+
+          },
+          {
+            label: "تجارة",
+            tension: 0,
+            borderWidth: 2,
+            pointRadius: 3,
+            borderColor: "#832bf9",
+            pointBorderColor: '#832bf9',
+            pointBackgroundColor: '#832bf9',
+            backgroundColor: gradientStroke2,
+            fill: true,
+            fill: true,
+            data: [2797, 2182, 1069, 2098, 3309, 3881, 2059, 3239, 6215, 2185, 2115, 5430, 4648, 2444, 2161, 3018, 1153, 1068, 2192, 1152, 2129, 1396, 2067, 1215, 712, 2462, 1669, 2360, 2787, 861],
+            maxBarThickness: 6
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            display: true,
+            position: 'top',
+            align: 'start',
+            labels: {
+              boxWidth: 6,
+              boxHeight: 6,
+              padding: 20,
+              pointStyle: 'circle',
+              borderRadius: 50,
+              usePointStyle: true,
+              font: {
+                weight: 400,
+              },
+            },
+          },
+          tooltip: {
+            backgroundColor: '#fff',
+            titleColor: '#1e293b',
+            bodyColor: '#1e293b',
+            borderColor: '#e9ecef',
+            borderWidth: 1,
+            usePointStyle: true
+          }
+        },
+        interaction: {
+          intersect: false,
+          mode: 'index',
+        },
+        scales: {
+          y: {
+            grid: {
+              drawBorder: false,
+              display: true,
+              drawOnChartArea: true,
+              drawTicks: false,
+              borderDash: [4, 4]
+            },
+            ticks: {
+              callback: function(value, index, ticks) {
+                return parseInt(value).toLocaleString() + ' EUR';
+              },
+              display: true,
+              padding: 10,
+              color: '#b2b9bf',
+              font: {
+                size: 12,
+                family: "Noto Sans",
+                style: 'normal',
+                lineHeight: 2
+              },
+              color: "#64748B"
+            }
+          },
+          x: {
+            grid: {
+              drawBorder: false,
+              display: false,
+              drawOnChartArea: false,
+              drawTicks: false,
+              borderDash: [4, 4]
+            },
+            ticks: {
+              display: true,
+              color: '#b2b9bf',
+              padding: 20,
+              font: {
+                size: 12,
+                family: "Noto Sans",
+                style: 'normal',
+                lineHeight: 2
+              },
+              color: "#64748B"
+            }
+          },
+        },
+      },
+    });
+  
+  
+ 
+
+  document.addEventListener('DOMContentLoaded', function () {
+    fetch('/data/data.json')
+      .then(response => response.json())
+      .then(data => {
+        const activityCounts = data.reduce((acc, item) => {
+          acc[item['النشاط']] = (acc[item['النشاط']] || 0) + 1;
+          return acc;
+        }, {});
+
+        const labels = Object.keys(activityCounts);
+        const values = Object.values(activityCounts);
+
+        const canvasConfigs = [
+          { id: 'chart-bars-1', type: 'bar' },
+          { id: 'chart-bars-2', type: 'line' },
+          { id: 'chart-bars-3', type: 'pie' },
+          { id: 'chart-bars-4', type: 'doughnut' },
+          { id: 'chart-bars-5', type: 'radar' },
+          { id: 'chart-bars-6', type: 'polarArea' },
+          { id: 'chart-bars-7', type: 'bubble' },
+        ];
+
+        canvasConfigs.forEach(config => {
+          const canvasElement = document.getElementById(config.id);
+          if (canvasElement) {
+            const ctx = canvasElement.getContext('2d');
+            let chartData = {
+              labels: labels,
+              datasets: [{
+                label: 'Activity Count',
+                data: values,
+                backgroundColor: [
+                  'rgba(255, 99, 132, 0.2)',
+                  'rgba(54, 162, 235, 0.2)',
+                  'rgba(255, 206, 86, 0.2)',
+                  'rgba(75, 192, 192, 0.2)',
+                  'rgba(153, 102, 255, 0.2)',
+                  'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                  'rgba(255, 99, 132, 1)',
+                  'rgba(54, 162, 235, 1)',
+                  'rgba(255, 206, 86, 1)',
+                  'rgba(75, 192, 192, 1)',
+                  'rgba(153, 102, 255, 1)',
+                  'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+              }]
+            };
+
+            // Handle specific data format for bubble and scatter charts
+            if (config.type === 'bubble' || config.type === 'scatter') {
+              chartData.datasets[0].data = values.map((value, index) => {
+                return { x: index, y: value, r: value / 10 };
+              });
+            }
+
+            new Chart(ctx, {
+              type: config.type,
+              data: chartData,
+              options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                  legend: {
+                    display: config.type !== 'bar',
+                    position: 'below',
+                    align: 'start',
+                    labels: {
+                      boxWidth: 6,
+                      boxHeight: 6,
+                      padding: 2,
+                      pointStyle: 'circle',
+                      borderRadius: 5,
+                      usePointStyle: true,
+                      font: {
+                        weight: 300,
+                      },
+                    },
+                  },
+                  tooltip: {
+                    backgroundColor: '#fff',
+                    titleColor: '#1e293b',
+                    bodyColor: '#1e293b',
+                    borderColor: '#e9ecef',
+                    borderWidth: 1,
+                    usePointStyle: true
+                  }
+                },
+                interaction: {
+                  intersect: false,
+                  mode: 'index',
+                },
+                scales: {
+                  y: {
+                    stacked: config.type === 'bar',
+                    grid: {
+                      drawBorder: false,
+                      display: true,
+                      drawOnChartArea: true,
+                      drawTicks: false,
+                      borderDash: [8, 8],
+                    },
+                    ticks: {
+                      beginAtZero: true,
+                      padding: 10,
+                      font: {
+                        size: 1,
+                        family: "Almarai",
+                        style: 'normal',
+                        lineHeight: 1
+                      },
+                      color: "#64748B"
+                    },
+                  },
+                  x: {
+                    stacked: config.type === 'bar',
+                    grid: {
+                      drawBorder: false,
+                      display: false,
+                      drawOnChartArea: false,
+                      drawTicks: false
+                    },
+                    ticks: {
+                      font: {
+                        size: 12,
+                        family: "Almarai",
+                        style: 'normal',
+                        lineHeight: 0.5
+                      },
+                      color: "#64748B"
+                    },
+                  },
+                },
+              }
+            });
+          } else {
+            console.error(`Canvas element with id ${config.id} not found.`);
+          }
+        });
+      });
+  });
+</script>
+<script>
+  var win = navigator.platform.indexOf('Win') > -1;
+  if (win && document.querySelector('#sidenav-scrollbar')) {
+    var options = {
+      damping: '0.5'
+    }
+    Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+  }
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const sidenavToggler = document.getElementById('iconNavbarSidenav');
+    const sidenav = document.getElementById('sidenav-main');
+
+    sidenavToggler.addEventListener('click', function () {
+      sidenav.classList.toggle('collapsed');
+    });
+  });
+</script>
+</body>
+
+</html>
